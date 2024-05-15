@@ -16,8 +16,10 @@ public class Serie {
     private String titulo;
     private Integer totalTemporadas;
     private Double avaliacao;
+
     @Enumerated(EnumType.STRING)
     private Categoria genero;
+
     private String atores;
     private String poster;
     private String sinopse;
